@@ -54,7 +54,7 @@ int main(int argc, char* argv[])
         print_grid(grid);
     }
 
-    // Wating for initialization
+    // Waiting for initialization
     MPI_Barrier(MPI_COMM_WORLD);
 
     /**
